@@ -6,7 +6,7 @@ import ArrowIcon from "@layouts/svg-icons/Arrow";
 const MyCaseStudy = () => {
   return (
     <>
-      <section id="case-study">
+      <section id="case-study" style={{ paddingTop: '80px' }}>
         <div className="container ">
           <div className="row align-items-center mil-mb-30">
             <div className="col-lg-6 mil-mb-30">
@@ -17,13 +17,21 @@ const MyCaseStudy = () => {
             {Data.map((item, key) => (
               <div className="row mb-4" key={`blog-post-${key}`}>
                 <div className="col-md-6">
-                  {/* <Link href={`/blog/${item.id}`} className="mil-blog-card"> */}
-                  <div className="mil-blog-card">
-                    <div className="mil-cover-frame mil-up">
-                      <img src={item.image} alt={item.title} />
+                  {item.projectLink ? (
+                    <Link href={item.projectLink}>
+                      <div className="mil-blog-card" style={{ cursor: 'pointer' }}>
+                        <div className="mil-cover-frame mil-up">
+                          <img src={item.image} alt={item.title} />
+                        </div>
+                      </div>
+                    </Link>
+                  ) : (
+                    <div className="mil-blog-card">
+                      <div className="mil-cover-frame mil-up">
+                        <img src={item.image} alt={item.title} />
+                      </div>
                     </div>
-                  </div>
-                  {/* </Link> */}
+                  )}
                 </div>
                 <div
                   className="col-md-6 container  mil-up  mil-blog-card mil-blog-content mil-post-descr"

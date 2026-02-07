@@ -39,5 +39,12 @@
     "description": "A design system is a unified set of reusable components, guidelines, and standards enabling consistent and efficient digital experiences. It fosters collaboration across teams, ensuring cohesive design and development across products and platforms.",
     "protoType": "Design Systems file",
     "protoTypeLink": "https://www.figma.com/design/mqX5CGtnXifysHIMx2Pa6m/Design-System?node-id=0-1&t=cT1sBQtkzNnAbFoD-1"
+  },
+  {
+    "title": "myNILpay",
+    "image": "/img/nilpay/main-image.png",
+    "points": ["Research", "UX Design", "UI Design"],
+    "description": "myNILpay is a mobile & web platform for sports fans to support college student-athletes. The platform enables fans to send money directly to their favorite athletes while ensuring NCAA compliance and providing a safe, secure way for athletes to receive payments.",
+    "projectLink": "/case-study/nilpay"
   }
 ]
