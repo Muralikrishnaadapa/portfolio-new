@@ -116,7 +116,7 @@ const NilPayCaseStudy = () => {
             </div>
             {/* Hero Image Section */}
             <div className="hero-image-section nilpay-hero-image-wrap">
-              <img src="/img/nilpay/main-image.png" alt="myNILpay Hero Section" className="hero-image nilpay-hero-image-on-top" />
+              <img src="/img/nilpay/main-banner.png" alt="myNILpay Hero Section" className="hero-image nilpay-hero-image-on-top" />
             </div>
           </div>
 
@@ -1024,7 +1024,7 @@ const NilPayCaseStudy = () => {
           display: block;
           animation: fadeIn 0.5s ease-in-out;
           scroll-margin-top: 150px;
-          margin-bottom: 100px;
+          margin-bottom: 28px;
           padding-top: 0;
         }
 
