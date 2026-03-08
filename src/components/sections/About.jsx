@@ -17,6 +17,7 @@ const AboutSection = () => {
                 />
                 <div
                   className="mil-text mil-up mil-mb-30"
+                  style={{ textAlign: "justify" }}
                   dangerouslySetInnerHTML={{ __html: Data.description }}
                 />
 
